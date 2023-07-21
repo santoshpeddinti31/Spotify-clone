@@ -3,9 +3,9 @@ import "../Login/Login.css";
 export default function Login() {
   const handleClick = () => {
     const client_id = "d902bf7f52fc46fd88e456693479d741";
-    // const redirect_uri = "http://localhost:3000/"; for local host testing and below one mention the host url
-    const redirect_uri = "http://localhost:3000/";
-    const api_uri = "https://spotifyapp-santoshpeddinti.netlify.app/";
+    // const redirect_uri = "http://localhost:3000/"; for local host testing and below one mention the host
+    const redirect_uri = "https://spotifyapp-santoshpeddinti.netlify.app/";
+    const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       //users
       "user-read-email",
