@@ -2,7 +2,7 @@ import React from "react";
 import "../Login/Login.css";
 export default function Login() {
   const handleClick = () => {
-    //  const client_id = /*Enter your clint id*/
+    const client_id = "d902bf7f52fc46fd88e456693479d741";
     const redirect_uri = "http://localhost:3000/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
